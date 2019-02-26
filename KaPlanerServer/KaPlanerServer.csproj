@@ -59,7 +59,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Networking\IServerConnection.cs" />
     <Compile Include="Networking\ServerConnection.cs" />
+    <Compile Include="Objects\KaEvent.cs" />
+    <Compile Include="Objects\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
